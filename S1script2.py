@@ -16,7 +16,6 @@ if password:
     tn.read_until("Password: ")
     tn.write(password + "\n")
 
-
 tn.write("conf t\n")
 
 for n in range (2,101):
