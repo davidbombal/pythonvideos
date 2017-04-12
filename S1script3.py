@@ -16,8 +16,8 @@ for n in range (72,77):
     tn.read_until("Username: ")
     tn.write(user + "\n")
     if password:
-    tn.read_until("Password: ")
-    tn.write(password + "\n")
+        tn.read_until("Password: ")
+        tn.write(password + "\n")
 
 
     tn.write("conf t\n")
