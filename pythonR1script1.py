@@ -14,7 +14,6 @@ if password:
     tn.read_until("Password: ")
     tn.write(password + "\n")
 
-
 tn.write("enable\n")
 tn.write("cisco\n")
 tn.write("conf t\n")
