@@ -22,7 +22,7 @@ for line in f:
 
     tn.write("conf t\n")
 
-    for n in range (2,11):
+    for n in range (2,26):
         tn.write("vlan " + str(n) + "\n")
         tn.write("name Python_VLAN_" + str(n) + "\n")
 
