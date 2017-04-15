@@ -19,7 +19,6 @@ for n in range (72,77):
         tn.read_until("Password: ")
         tn.write(password + "\n")
 
-
     tn.write("conf t\n")
 
     for n in range (2,21):
