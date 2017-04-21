@@ -23,11 +23,9 @@ iosv_l2_s3 = {
     'password': 'cisco',
 }
 
-
 with open('iosv_l2_config1') as f:
     lines = f.read().splitlines()
 print lines
-
 
 all_devices = [iosv_l2_s1, iosv_l2_s2, iosv_l2_s3]
 
@@ -35,5 +33,3 @@ for devices in all_devices:
     net_connect = ConnectHandler(**devices)
     output = net_connect.send_config_set(lines)
     print output 
-
-f.closed
