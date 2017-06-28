@@ -1,0 +1,8 @@
+apt-get update
+apt-get install python -y
+apt-get install build-essential libssl-dev libffi-dev -y
+apt-get install python-pip -y
+pip install cryptography
+pip install --upgrade pip
+pip install paramiko
+pip install netmiko
