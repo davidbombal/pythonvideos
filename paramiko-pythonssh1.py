@@ -24,7 +24,7 @@ remote_connection.send("network 0.0.0.0 255.255.255.255 area 0\n")
 for n in range (2,21):
     print "Creating VLAN " + str(n)
     remote_connection.send("vlan " + str(n) +  "\n")
-    remote_connection.send("name Python_VLAN " + str(n) +  "\n")
+    remote_connection.send("name Python_VLAN_" + str(n) +  "\n")
     time.sleep(0.5)
 
 remote_connection.send("end\n")
