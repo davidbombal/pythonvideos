@@ -31,5 +31,5 @@ for line in f:
         saveoutput =  open("switch" + HOST, "w")
         saveoutput.write(readoutput)
         saveoutput.write("\n")
-	    saveoutput.close
+        saveoutput.close
         print tn.read_all()
